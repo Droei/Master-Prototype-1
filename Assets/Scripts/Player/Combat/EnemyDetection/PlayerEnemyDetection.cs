@@ -36,6 +36,7 @@ public class PlayerEnemyDetection : MonoBehaviour
         EnemyCore best = EnemyTargetSelector.SelectBest(
             candidates,
             playerCamera,
+            transform,
             settings.innerPriorityRadius,
             settings.outerPriorityRadius
         );

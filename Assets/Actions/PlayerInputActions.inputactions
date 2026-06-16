@@ -25,16 +25,7 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Jump",
-                    "type": "Button",
-                    "id": "fba7cdc8-f95a-4237-94e0-39fc510d9be7",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
-                    "name": "Shoot",
+                    "name": "Attack",
                     "type": "Button",
                     "id": "a468c6e9-29cc-424c-947a-86429093b858",
                     "expectedControlType": "",
@@ -48,17 +39,6 @@
                     "name": "",
                     "id": "2bb33d5f-7a8a-4473-a6fd-a7b4e14a6457",
                     "path": "<Gamepad>/rightStick",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Look",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "e4e9a25c-7cf9-489e-9e49-bb9d3711581c",
-                    "path": "<Mouse>/delta",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -134,23 +114,12 @@
                 },
                 {
                     "name": "",
-                    "id": "4ea7f1ec-86b6-44f0-8645-747aaed3285c",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "03d43212-cabf-4560-b05d-a6ca928c69b1",
-                    "path": "<Gamepad>/buttonSouth",
+                    "path": "<Gamepad>/rightTrigger",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Jump",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
@@ -161,18 +130,7 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Shoot",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "00fda472-e1df-4b41-9ed7-022b481fdbf5",
-                    "path": "<Gamepad>/rightTrigger",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Shoot",
+                    "action": "Attack",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
