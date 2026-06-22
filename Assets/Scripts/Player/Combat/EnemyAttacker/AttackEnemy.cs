@@ -43,7 +43,6 @@ public class AttackEnemy : MonoBehaviour
 
     void OnBestTargetChanged(EnemyCore target)
     {
-        Debug.Log(currentTarget);
         currentTarget = target;
     }
 
@@ -53,6 +52,7 @@ public class AttackEnemy : MonoBehaviour
             return;
 
         TeleportToTarget(currentTarget.transform);
+        currentTarget.Hit();
     }
 
     void TeleportToTarget(Transform target)
